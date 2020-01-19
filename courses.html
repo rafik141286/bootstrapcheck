@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> index.html </title>
+	<link rel="stylesheet" href="css/style1.CSS">
+	<script src= https://code.jquery.com/jquery-3.4.1.min.js> </script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+<script src= https://code.jquery.com/jquery-3.4.1.min.js> </script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">	<img id="logo" src="res/logo.png">
+</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="courses.html">Courses</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+    
+    </ul>
+   
+  </div>
+</nav>
+<div id="b"> 
+<br>
+<center>
+	<ul class="s">
+courses
+</ul>
+<br>
+<ul class="s">
+	feedback
+	</ul>
+<br>
+	<input type="button" onclick="gras()" value="B">
+	<input type="button" onclick="italique ()" value="I">
+	<input type="button" onclick= "underline ()" value ="underline">
+	<select onclick="changesize(this);">
+		<option>30px</option>
+		<option>40px</option>
+		<option>50px</option>
+	</select>
+	<select onclick="fontfamily(this)">
+		<option>arial</option>
+		<option>verdona</option>
+		<option>geneva</option>
+	      </select>
+               <br>
+               <br>
+               <br>
+<textarea cols="25" rows="10"></textarea>
+</center>
+</div >
+<div class="courses">
+		<h2 style="color: white">Courses</h2>
+		<div class="block1">
+			<div class="contain">
+				<img src="res/img1.png">
+				<button class="btn" onclick="OModal()">Show More </button>
+			</div>
+			<div class="contain">
+				<img src="res/img2.png">
+				<button class="btn" onclick="OModal()">Show More </button>
+			</div>
+			<div class="contain">
+				<img src="res/img3.png">
+				<button class="btn"onclick="OModal()">Show More </button>
+			</div>
+
+		</div>
+
+		<div class="block2">
+			<div class="contain">
+				<img src="res/img4.png">
+				<button class="btn"onclick="OModal()">Show More </button>
+			</div>
+			<div class="contain">
+				<img src="res/img5.png">
+				<button class="btn"onclick="OModal()">Show More </button>
+			</div>
+			<div class="contain">
+				<img src="res/img6.png">
+				<button class="btn"onclick="OModal()">Show More </button>
+			</div>
+
+		</div>
+
+
+		<div class="block3">
+			<div class="contain">
+				<img src="res/img7.png">
+				<button class="btn"onclick="OModal()">Show More </button>
+            </div>  
+                 
+			<div class="contain">
+				<img src="res/img8.png">
+				<button class="btn"onclick="OModal()">Show More </button>
+			</div>
+			<div class="contain">
+				<img src="res/img9.png">
+				<button class="btn"onclick="OModal()">Show More </button>
+			</div>
+			 </div> 
+			 <div id="ex1" class="modal">
+  <p>Thanks for clicking. That felt good.</p>
+  <a href="#" rel="modal:close">Close</a>
+</div>
+
+
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+<script src="m.js"></script>
+</html>
